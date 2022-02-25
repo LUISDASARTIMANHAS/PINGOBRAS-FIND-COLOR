@@ -43,12 +43,12 @@
       <div class="content" role="main">
         
         <!-- This is the start of content for our page -->
-        <h1 class="title">Hello Node!</h1>
+        <h1 class="title">PINGOBRAS SEARCHER COLOR|</h1>
         
         <!-- Add text indicating that we've changed color OR had an error -->
         {{#if color}}
           <p class="color-info">
-            Now available in <b>{{color}}</b>!
+            COR ENCONTRADA! <b>{{color}}</b>!
           </p>
         {{/if}}  
         
@@ -56,8 +56,8 @@
           <p class="color-info">
             
             <!-- The server script passes colorError if the user submission can't be matched -->
-            Hmm. Couldn't find <b>"{{colorError}}"</b>. 
-            <a href="?randomize=go">Try a random color?</a>
+            Não encontramos sua cor!! <b>"{{colorError}}"</b>. 
+            <a href="?randomize=go">tente pegar uma cor aleatoria?</a>
           </p>
         {{/if}}
         
@@ -70,9 +70,6 @@
             <!-- There are fancier ways to do this, 
                  but nesting two "#unless" statements sets up an 
                  "if these are both missing..." condition -->
-            <p>
-              Learn about communication with a server by talking about color.
-            </p>
             {{/unless}}
           {{/unless}}
           
@@ -83,16 +80,16 @@
                 
                 <!-- We use the handlebars "#if" statement so the form can adapt to its situation -->
                 {{#if color}}
-                  Try another color?<br>
+                  Pesquisar cor<br>
                 {{else}}
-                  What's your favorite color?<br>
+                  Qual cor quer pegar hoje?<br>
                 {{/if}}
                 <input id="color" name="color" required="required" type="text">
               </label>
             
             <!-- If the user submits a value through the form 
                  it'll be passed to the server in the request body  -->
-            <button type="submit">Submit</button>
+            <button type="submit">Pesquisar</button>
           </form>
           
           <!-- This randomize link communicates with the server (server.js) 
