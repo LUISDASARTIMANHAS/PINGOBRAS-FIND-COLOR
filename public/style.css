@@ -102,10 +102,12 @@ a:not(.btn--remix):visited {
 END Glitch hello-app default styles
 ******************************************************************************/
 
-body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
-}
+
+body{
+      font-family: Arial, helvetica, sans-serif;
+       background-image: linear-gradient(45deg, cyan, purple);
+       width: 100%;
+     }
 
 /* Page structure */
 .wrapper {
