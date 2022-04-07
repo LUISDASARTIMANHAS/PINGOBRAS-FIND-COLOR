@@ -16,6 +16,10 @@ to this section's matching END comment to see page-specific styles.
   --image-margin: 3rem;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
+  --esquerda: 98px;
+  --direita: -8px;
+  --baixo: 8px;
+  --luz: 20px;
 }
 
 /* Basic page style resets */
@@ -132,7 +136,7 @@ p {
 }
 .color-form button:hover {
   cursor: pointer;
-  box-shadow: -8px 4px 20px #9BE7D8;
+  box-shadow: var(--direita) var(--baixo) var(--luz)999 white;
 }
 form {
   margin: 0.75rem 0;
