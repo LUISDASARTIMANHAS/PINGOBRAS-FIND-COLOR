@@ -19,7 +19,7 @@ to this section's matching END comment to see page-specific styles.
   --esquerda: 98px;
   --direita: -8px;
   --baixo: 8px;
-  --luz: 20px;
+  --luz: 99px;
 }
 
 /* Basic page style resets */
@@ -135,8 +135,9 @@ p {
   margin-top: 8px;
 }
 .color-form button:hover {
+  background-color: red;
   cursor: pointer;
-  box-shadow: var(--direita) var(--baixo) var(--luz)999 white;
+  box-shadow: var(--direita) var(--baixo) var(--luz) white;
 }
 form {
   margin: 0.75rem 0;
