@@ -19,7 +19,9 @@ to this section's matching END comment to see page-specific styles.
   --esquerda: 98px;
   --direita: -8px;
   --baixo: 8px;
-  --luz: 99px;
+  --luz: 20px;
+  --font-google:Roboto;
+  --font-2: san;
 }
 
 /* Basic page style resets */
@@ -95,7 +97,7 @@ p {
 /* Title h1 style */
 .title {
   color: #2800FF;
-  font-family: Arial;
+  font-family: san;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -126,12 +128,9 @@ p {
   max-width: 500px;
   margin-left: 5px;
 }
-.color-form a:not(.btn--remix) {
-  font-weight: bold;
-  color: var(--color-text-main);
-  margin-top: 8px;
-}
+
 .color-form button {
+  background-color: purple;
   margin-top: 8px;
 }
 .color-form button:hover {
@@ -145,8 +144,8 @@ form {
 button,input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
-  border: 1px solid #000000;
+  background: white;
+  border: 1px solid black;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
