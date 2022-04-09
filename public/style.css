@@ -58,12 +58,11 @@ to this section's matching END comment to see page-specific styles.
   flex-wrap: wrap;
   border-top: 4px solid white;
 }
-
-
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
   white-space: nowrap;
 }
+
 .btnvoltar{
         position: inline;
         background-color: blue;
