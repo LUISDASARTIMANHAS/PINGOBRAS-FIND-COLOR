@@ -7,14 +7,14 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "fastify": "^5.0.0",
-    "@fastify/formbody": "^8.0.0",
-    "@fastify/static": "^8.0.0",
+    "fastify": "^3.27.4",
+    "fastify-formbody": "^5.2.0",
+    "fastify-static": "^4.6.1",
     "handlebars": "^4.7.7",
-    "point-of-view": "^6.0.0"
+    "point-of-view": "^5.2.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "12.x"
   },
   "license": "MIT",
   "keywords": [
