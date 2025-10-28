@@ -14,7 +14,7 @@
     "point-of-view": "^6.0.0"
   },
   "engines": {
-    "node": "22.x"
+    "node": "24.x"
   },
   "license": "MIT",
   "keywords": [
